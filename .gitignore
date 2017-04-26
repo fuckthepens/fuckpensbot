@@ -1,8 +1,8 @@
 import praw
-bot = praw.Reddit(user_agent='fuckthepens',
+bot = praw.Reddit(user_agent='',
                   client_id='',
                   client_secret='',
-                  username='-FuckThePens-',
+                  username='',
                   password='')
 subreddit = bot.subreddit('all')
 comments = subreddit.stream.comments()
